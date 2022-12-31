@@ -7,7 +7,7 @@ December 31, 2022
 GitHub Project 
 
 ### Description
-edit python project in github
+add python project in github
 
 ### Files used
 Include the files used
