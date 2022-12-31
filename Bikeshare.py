@@ -94,6 +94,9 @@ def load_data(city, month, day):
     # filter by day
     if day != 'all':
         df = df[df['day'] == day]
+     # filter by hours
+     if hours != 'all':
+         df = df[df['hours']==hours]
 
     return df
 
