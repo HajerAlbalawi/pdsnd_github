@@ -7,7 +7,7 @@ December 31, 2022
 GitHub Project 
 
 ### Description
-Describe what your project is about and what it does
+edit python project in github
 
 ### Files used
 Include the files used
