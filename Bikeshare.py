@@ -198,13 +198,13 @@ def user_type(df):
 
 def display_data(df):
 
-    raw_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?").lower()
+    raw_data = input("Would you like to view 6 rows of individual trip data? Enter yes or no?").lower()
     start_loc = 0
     while raw_data == 'yes':
         if raw_data != 'yes':
             break
-        print(df.iloc[start_loc:start_loc + 5])
-        start_loc += 5
+        print(df.iloc[start_loc:start_loc + 6])
+        start_loc += 6
         raw_display = input("Do you wish to continue?: ").lower()
         if raw_display.lower() != 'yes':
             break
